@@ -1,9 +1,13 @@
+
+### imports 
 import os 
 import numpy as np 
 import pandas as pd
 import SimpleITK as sitk
 from collections import defaultdict
 import random
+
+
 
 
 def rotate_mri_image(image, angle_degrees=10, axis='axial'):
@@ -108,10 +112,9 @@ def aug(path):
     img_rotated = rotate_mri_image(img_shifted,angle_degrees=r2)
     return img_rotated
 
-
-def augment_dataset_to_balance(df:pd.DataFrame, target_function, max_count:int,output:str):
+def augment_dataset_to_balance(df, target_function, max_count,output):
     paths = df['preprocessed_path']
-    ages = df['Age']
+    ages = df['age']
     dataset = df['dataset']
     print(f'max count {max_count}')
     age_to_paths = defaultdict(list)
@@ -131,6 +134,7 @@ def augment_dataset_to_balance(df:pd.DataFrame, target_function, max_count:int,o
         current_count = len(items)
         num_augmentations_needed = max(0, max_count - current_count)
         
+        # print(f'for age {age} >>> number of augmentations needed: {num_augmentations_needed}')
         c = 0
         for z in range(num_augmentations_needed):
             path_to_augment, data = random.choice(items)  
@@ -147,7 +151,7 @@ def augment_dataset_to_balance(df:pd.DataFrame, target_function, max_count:int,o
 
     augmented_df = pd.DataFrame({
         'preprocessed_path': balanced_file_paths,
-        'Age': balanced_ages,
+        'age': balanced_ages,
         'dataset': balanced_datasets,
         'aug': 1
     })

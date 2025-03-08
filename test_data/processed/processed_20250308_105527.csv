@@ -1,0 +1,5 @@
+participant_id,session_id,gp,age,sex,folder,path,preprocessed_path
+sub-01,ses-01,nh,53,M,sub-01/ses-01,test_data/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii.gz,test_data/sub-01/ses-01/anat/sub-01_ses-01_T1w/5- normalized/sub-01_ses-01_T1w.nii.gz
+sub-02,ses-01,nh,66,F,sub-02/ses-01,test_data/sub-02/ses-01/anat/sub-02_ses-01_T1w.nii.gz,test_data/sub-02/ses-01/anat/sub-02_ses-01_T1w/5- normalized/sub-02_ses-01_T1w.nii.gz
+sub-03,ses-01,nh,54,F,sub-03/ses-01,test_data/sub-03/ses-01/anat/sub-03_ses-01_T1w.nii.gz,test_data/sub-03/ses-01/anat/sub-03_ses-01_T1w/5- normalized/sub-03_ses-01_T1w.nii.gz
+sub-04,ses-01,nh,57,M,sub-04/ses-01,test_data/sub-04/ses-01/anat/sub-04_ses-01_T1w.nii.gz,test_data/sub-04/ses-01/anat/sub-04_ses-01_T1w/5- normalized/sub-04_ses-01_T1w.nii.gz

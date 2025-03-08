@@ -1,0 +1,16 @@
+{
+    "Name": "Hearing loss Connectome",
+    "BIDSVersion": "1.0.0rc1",
+    "Authors": [
+        "Sara Ponticorvo",
+        "Fabrizio Esposito"
+    ],
+    "Funding": [
+        "This work is supported by Amplifon SpA"
+    ],
+    "EthicsApprovals": [
+        "The experimental procedure was approved by the institutional review board of University of Salerno"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005026.v1.0.0",
+    "License": "CC0"
+}

@@ -1,0 +1,13 @@
+participant_id,session_id,gp,age,sex,folder,path,preprocessed_path,dataset,aug
+sub-01,ses-01,nh,53,M,sub-01/ses-01,test_data/sub-01/ses-01/anat/sub-01_ses-01_T1w.nii.gz,test_data/sub-01/ses-01/anat/sub-01_ses-01_T1w/5- normalized/sub-01_ses-01_T1w.nii.gz,test_data,0
+sub-02,ses-01,nh,66,F,sub-02/ses-01,test_data/sub-02/ses-01/anat/sub-02_ses-01_T1w.nii.gz,test_data/sub-02/ses-01/anat/sub-02_ses-01_T1w/5- normalized/sub-02_ses-01_T1w.nii.gz,test_data,0
+sub-03,ses-01,nh,54,F,sub-03/ses-01,test_data/sub-03/ses-01/anat/sub-03_ses-01_T1w.nii.gz,test_data/sub-03/ses-01/anat/sub-03_ses-01_T1w/5- normalized/sub-03_ses-01_T1w.nii.gz,test_data,0
+sub-04,ses-01,nh,57,M,sub-04/ses-01,test_data/sub-04/ses-01/anat/sub-04_ses-01_T1w.nii.gz,test_data/sub-04/ses-01/anat/sub-04_ses-01_T1w/5- normalized/sub-04_ses-01_T1w.nii.gz,test_data,0
+,,,53,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/53_aug_0_sub-01_ses-01_T1w.nii.gz,test_data,1
+,,,53,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/53_aug_1_sub-01_ses-01_T1w.nii.gz,test_data,1
+,,,66,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/66_aug_0_sub-02_ses-01_T1w.nii.gz,test_data,1
+,,,66,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/66_aug_1_sub-02_ses-01_T1w.nii.gz,test_data,1
+,,,54,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/54_aug_0_sub-03_ses-01_T1w.nii.gz,test_data,1
+,,,54,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/54_aug_1_sub-03_ses-01_T1w.nii.gz,test_data,1
+,,,57,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/57_aug_0_sub-04_ses-01_T1w.nii.gz,test_data,1
+,,,57,,,,/media/kiarashazimzadeh/Data/prep_repo/augmented_test_data/57_aug_1_sub-04_ses-01_T1w.nii.gz,test_data,1
