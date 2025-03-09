@@ -4,16 +4,13 @@ import os
 import numpy as np 
 import pandas as pd
 import ants 
-from ipywidgets import interact
 from helpers import * 
 import glob 
-import time
 import time
 from functools import wraps
 import SimpleITK as sitk
 from antspynet.utilities import brain_extraction
 import subprocess
-import itertools
 from tqdm import tqdm
 import datetime
 
